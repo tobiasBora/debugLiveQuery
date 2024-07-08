@@ -9,7 +9,7 @@
   //
   // Query
   //
-  $: friends = liveQuery(async () => {
+  let friends = liveQuery(async () => {
     //
     // Query Dexie's API
     //
